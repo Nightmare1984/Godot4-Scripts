@@ -7,10 +7,10 @@ uniform float roughness = 0.2;
 // __________Normal Map Uniforms_____________
 uniform sampler2D normalmap_a : hint_normal;
 uniform sampler2D normalmap_b : hint_normal;
-uniform float normalmap_a_strangth = 0.3;
-uniform float normalmap_b_strangth = 0;
+uniform float normalmap_a_strangth = 0.77;
+uniform float normalmap_b_strangth = 0.65;
 // _____________Movement________________________
-uniform vec2 movement_direction = vec2(0.1,0.1);
+uniform vec2 movement_direction = vec2(0.2,0.3);
 uniform float movement_strangth = 0.5;
 // ________UV Scale__________
 uniform float uv_scale = 1.0;
